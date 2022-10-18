@@ -1,0 +1,11 @@
+server.port=9091
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/bank?useSSL=false&serverTimezone=America/El_Salvador&allowPublicKeyRetrieval=true
+spring.datasource.username=postgres
+spring.datasource.password=manuel
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQL10Dialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=create
+logging.level.org.hibernate.SQL=debug
+
